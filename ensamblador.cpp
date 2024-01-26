@@ -17,7 +17,6 @@ void ensamblador::run() {
             qDebug() << "Ensamblador ensamblando un jersey.         Mangas en el buffer:" << cestaMangas->available()
                      << "Cuerpos en el buffer:" << cestaCuerpos->available();
 
-            sendMessageToServer("Jersey assembled");
         }
 
         mutexCuerpos->unlock();

@@ -1,7 +1,7 @@
 #include "costureramangas.h"
 
 int CostureraMangas::getNumMaxMangas() {
-    return 5; // Replace with your implementation
+    return 10; // Replace with your implementation
 }
 
 CostureraMangas::CostureraMangas(QSemaphore *cestaMangas, QSemaphore *cestaCuerpos, QMutex *mutexMangas, QMutex *mutexCuerpos, QTcpSocket *socket)
